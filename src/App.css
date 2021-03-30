@@ -1,0 +1,44 @@
+.header {
+    border-bottom: 3px solid #666;
+}
+
+.left_item {
+    margin: 15px 0;
+    border: 1px solid #666666;
+    padding: 20px;
+    height: 16vw;
+}
+.divider{
+    border-bottom: 3px solid #555;
+    border-radius: 50%;
+    margin: 20px;
+}
+.card{
+    height: 30vh;
+    box-shadow: 0 2px 2px 0px #5e5d5d;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0px #151515;
+    cursor: pointer;
+}
+.card:active{
+    box-shadow: 0 4px 4px 0px #151515;
+}
+p{
+    color: #484848 !important;
+}
+.state{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+    top: 10px;
+}
+.state:hover{
+    cursor: pointer;
+}
+@media (max-width : 1060px){
+    p{
+        margin-bottom: 5px ;
+    }
+}
